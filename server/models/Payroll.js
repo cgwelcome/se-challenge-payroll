@@ -3,7 +3,7 @@ const db = require('../db');
 module.exports.alllow = cb => {
   db.all(`
     SELECT employee_id, date,
-    SUM(hours_worked)*rate AS Amount_paid
+    SUM(hours_worked)*rate AS amount_paid
     FROM Entries a
     JOIN JobGroups b
     ON a.job_group_id = b.id

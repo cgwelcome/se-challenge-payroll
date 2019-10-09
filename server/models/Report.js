@@ -12,7 +12,6 @@ module.exports.create = (entry, cb) => {
       $external_id: entry.external_id,
       }
     );
-
     db.all(`
       SELECT seq FROM sqlite_sequence WHERE name="Reports";
     `, (err, data) => {

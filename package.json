@@ -1,0 +1,22 @@
+{
+  "name": "se-challenge-payroll",
+  "version": "1.0.0",
+  "description": "Applicants for the Full-stack Developer role at Wave must complete the following challenge, and submit a solution prior to the onsite interview.",
+  "dependencies": {
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgwelcome/se-challenge-payroll.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgwelcome/se-challenge-payroll/issues"
+  },
+  "homepage": "https://github.com/cgwelcome/se-challenge-payroll#readme"
+}

@@ -13,7 +13,10 @@ router.get('/', (req, res) => {
 });
 
 router.post('/uploadFile', upload.single('EntryFile'), (req, res) => {
-  entryParser.parse(req.file);
+  entryParser.parse(req.file, err => {
+    console.log(err);
+    res.status(400).send();
+  });
   res.json({'status': 'Sucessfully uploaded'});
 });
 
